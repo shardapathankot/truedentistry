@@ -1,0 +1,318 @@
+/*
+Theme Name: Hello Elementor Child
+Theme URI: https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash
+Template: hello-elementor
+Author: Elementor Team
+Author URI: https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash
+Description: Hello Elementor is a lightweight and minimalist WordPress theme that was built specifically to work seamlessly with the Elementor site builder plugin. The theme is free, open-source, and designed for users who want a flexible, easy-to-use, and customizable website. The theme, which is optimized for performance, provides a solid foundation for users to build their own unique designs using the Elementor drag-and-drop site builder. Its simplicity and flexibility make it a great choice for both beginners and experienced Web Creators.
+Tags: accessibility-ready,flexible-header,custom-colors,custom-menu,custom-logo,featured-images,rtl-language-support,threaded-comments,translation-ready
+Version: 3.0.1.1707377493
+Updated: 2024-02-08 07:31:33
+
+*/
+
+
+a {
+	background-color: transparent;
+	text-decoration: none;
+	color: #000;
+}
+
+a:active,
+a:hover {
+	color: #cc5500;
+}
+.home_services .services {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0rem;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.home_services .services .service {
+    flex: 0 0 auto;
+    width: 33.33333%;
+    max-width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.home_services .services .service img {
+    width: 100%;
+    height: 325px;
+    object-fit: cover;
+}
+.home_services .services .service h2 {
+    margin-top: 15px;
+    color: #CC5500;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.home_services .services .service h2 a {
+    color: #CC5500;
+}
+
+.main_footer {
+    margin-top: 50px;
+    background-color: #CC5500;
+}
+.footer_inner {
+    display: flex;
+    margin: 0 auto;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    padding: 50px 0 25px;
+/*     height: 100%; */
+    max-width: 1140px;
+    width: 100%;
+    gap: 0px 0px;
+    flex-direction: row;
+    flex-wrap: initial;
+    justify-content: initial;
+    align-items: initial;
+}
+.footer_inner .footer_colMain {
+    width: 33%;
+    padding: 15px;
+}
+.footer_inner .footer_colMain h4 {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    position: relative;
+}
+.footer_inner .footer_colMain h4::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background-color: #fff;
+    width: 65px;
+    height: 3px;
+}
+.footer_inner .footer_colMain p {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+	margin: 0 0 5px;
+}
+.comments-area {
+    margin-top: 40px;
+}
+.comment-respond .comment-reply-title {
+    color: #CC5500;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 600;
+}
+.comment-respond .comment-form .logged-in-as {
+    text-align: left;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #7a7a7a;
+}
+.comment-respond .comment-form .comment-notes {
+    text-align: left;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #7a7a7a;
+}
+.comment-respond .comment-form p {
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.comment-respond .comment-form p label {
+    width: 100%;
+	    margin-bottom: 8px;
+
+}
+.comment-respond .comment-form p input {
+    border: 1px solid #dedede;
+    border-radius: 6px;
+}
+.comment-respond .comment-form p textarea {
+    border: 1px solid #dedede;
+    border-radius: 6px;
+}
+.comment-respond .comment-form .comment-form-cookies-consent {
+    display: flex;
+    align-items: center;
+}
+.comment-respond .comment-form .comment-form-cookies-consent input {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+.comment-respond .comment-form .comment-form-cookies-consent label {
+    margin: 0px;
+}
+.comment-respond .comment-form .form-submit #submit {
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #CC5500;
+    border-radius: 65px 65px 65px 65px;
+    padding: 14px 35px 14px 35px;
+    color: #fff;
+}
+
+.home_meet .teams {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0rem;
+    margin-right: 0px;
+    margin-left: 0px;
+    gap: 10px;
+}
+.home_meet .teams .team {
+    flex: 0 0 auto;
+    width: 32.33333%;
+    max-width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #F5DDCC;
+    text-align: center;
+}
+.home_meet .teams .team a img {
+    width: 100%;
+    height: 325px;
+    object-fit: cover;
+}
+.home_meet .teams .team h2 {
+    margin-top: 15px;
+    color: #CC5500;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.home_meet .teams .team h2 a {
+    color: #CC5500;
+}
+.home_meet .teams .team p {
+    margin: 0px 0px 25px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.home_meet .teams .team:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.home_meet .teams .team:first-child .description h1 {
+    padding: 0px 20px 0px 20px;
+    color: #CC5500;
+    font-family: "Poppins", Sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 60px;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+}
+
+/*  */
+.teams {
+    display: flex;
+    flex-wrap: initial;
+    justify-content: initial;
+    align-items: initial;
+    align-content: initial;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-self: auto;
+    flex-direction: var(--flex-direction);
+    gap: 20px 20px;
+    width: 100%;
+    max-width: min(100%, 1140px);
+    margin: 0 auto;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+/*     height: 100%; */
+}
+.teams .row_team {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0rem;
+    margin-right: 0px;
+    margin-left: 0px;
+    gap: 10px;
+}
+.teams .row_team .col {
+    flex: 0 0 auto;
+    width: 32.33333%;
+    max-width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #F5DDCC;
+    text-align: center;
+}
+.teams .row_team .col a img {
+    width: 100%;
+    height: 325px;
+    object-fit: cover;
+}
+.teams .row_team .col h2 {
+    margin-top: 15px;
+    color: #CC5500;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.teams .row_team .col h2 a {
+    color: #CC5500;
+}
+.teams .row_team .team p {
+    margin: 0px 0px 25px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.teams .row_team .col:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.teams .row_team .col:first-child .entry-title h1 {
+    padding: 0px 20px 0px 20px;
+    color: #CC5500;
+    font-family: "Poppins", Sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 60px;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+}
+
+@media screen and (max-width:768px) {
+	.footer_inner {
+    display: block;
+}
+	.footer_inner .footer_colMain {
+		width: 100%;
+	}
+}
+@media screen and (max-width:580px) {
+	.home_services .services .service {
+		width: 100%;
+	}
+	.home_services .services .service h2 {
+		text-align: center;
+	}
+}
